@@ -35,11 +35,19 @@
     <div class="text-xl tracking-widest text-amber-400 font-semibold">
       AD TILING
     </div>
-    <nav class="space-x-6 text-sm uppercase tracking-wider">
+
+    <nav class="flex items-center space-x-6 text-sm uppercase tracking-wider">
       <a href="#about" class="hover:text-amber-400">About</a>
       <a href="#services" class="hover:text-amber-400">Services</a>
       <a href="#work" class="hover:text-amber-400">Work</a>
-      <a href="#contact" class="hover:text-amber-400">Contact</a>
+
+      <!-- CALL BUTTON -->
+      <a
+        href="tel:07917635041"
+        class="ml-4 px-4 py-2 border border-amber-400 text-amber-400 rounded-lg hover:bg-amber-400 hover:text-black transition"
+      >
+        Call 07917 635041
+      </a>
     </nav>
   </header>
 
@@ -101,27 +109,21 @@
     <h2 class="text-3xl text-center mb-12">Our Work</h2>
 
     <div class="grid md:grid-cols-3 gap-6">
-      <img
-        class="rounded-xl transition-transform duration-500 hover:scale-105"
-        src="work1.png"
-        alt="Tiling work 1"
-      />
-      <img
-        class="rounded-xl transition-transform duration-500 hover:scale-105"
-        src="work2.png"
-        alt="Tiling work 2"
-      />
-      <img
-        class="rounded-xl transition-transform duration-500 hover:scale-105"
-        src="work3.png"
-        alt="Tiling work 3"
-      />
+      <img class="rounded-xl transition-transform duration-500 hover:scale-105" src="work1.png" alt="Tiling work 1">
+      <img class="rounded-xl transition-transform duration-500 hover:scale-105" src="work2.png" alt="Tiling work 2">
+      <img class="rounded-xl transition-transform duration-500 hover:scale-105" src="work3.png" alt="Tiling work 3">
     </div>
   </div>
 </section>
 
 <!-- ================= FOOTER ================= -->
-<footer id="contact" class="py-10 text-center text-sm text-neutral-500">
+<footer id="contact" class="py-10 text-center text-sm text-neutral-400">
+  <p class="mb-2">
+    Call us:
+    <a href="tel:07917635041" class="text-amber-400 hover:underline">
+      07917 635041
+    </a>
+  </p>
   © 2025 AD Tiling. Luxury & Precision Tiling.
 </footer>
 
