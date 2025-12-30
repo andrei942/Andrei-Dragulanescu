@@ -12,7 +12,7 @@ body {
 
 /* HERO */
 .hero {
-    height: full screen;
+    height:200;
     background: url("hero.png") center/cover no-repeat;
     position: relative;
 }
@@ -117,13 +117,13 @@ footer {
 }
 /* FORCE SMALL WORK PHOTOS */
 .work-gallery img {
-  height: 160px !important;
-  max-height: 160px !important;
+  height: 50px !important;
+  max-height:50px !important;
 }
 /* === FORCE WORK IMAGES SMALL (FINAL FIX) === */
 .work .work-gallery img {
   width: 30% !important;
-  height: 160px !important;
+  height: 50px !important;
   object-fit: cover !important;
   border-radius: 8px;
   display: block;
