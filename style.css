@@ -99,13 +99,19 @@ footer {
   gap: 20px;
 }
 
-.work-gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
+/* SMALL WORK PHOTOS */
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.work-gallery img:hover {
-  transform: scale(1.05);
+.work-gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
 }
