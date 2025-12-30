@@ -115,3 +115,8 @@ footer {
   border-radius: 8px;
   display: block;
 }
+/* FORCE SMALL WORK PHOTOS */
+.work-gallery img {
+  height: 160px !important;
+  max-height: 160px !important;
+}
