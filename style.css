@@ -109,7 +109,7 @@ footer {
 }
 
 .work-gallery img {
-  width: 100%;
+  width: 30%;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
@@ -122,7 +122,7 @@ footer {
 }
 /* === FORCE WORK IMAGES SMALL (FINAL FIX) === */
 .work .work-gallery img {
-  width: 100% !important;
+  width: 30% !important;
   height: 160px !important;
   object-fit: cover !important;
   border-radius: 8px;
