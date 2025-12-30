@@ -120,3 +120,11 @@ footer {
   height: 160px !important;
   max-height: 160px !important;
 }
+/* === FORCE WORK IMAGES SMALL (FINAL FIX) === */
+.work .work-gallery img {
+  width: 100% !important;
+  height: 160px !important;
+  object-fit: cover !important;
+  border-radius: 8px;
+  display: block;
+}
