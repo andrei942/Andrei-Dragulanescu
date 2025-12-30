@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AD Tiling | Luxury & Precision Tiling</title>
 
-  <!-- Tailwind CDN -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Google Fonts -->
@@ -20,109 +20,110 @@
     }
   </style>
 </head>
+
 <body class="bg-neutral-900 text-neutral-100">
 
-  <!-- HERO SECTION -->
-  <section
-    class="relative min-h-screen bg-cover bg-center"
-    style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');"
-  >
-    <div class="absolute inset-0 bg-black/60"></div>
+<!-- ================= HERO ================= -->
+<section
+  class="relative min-h-screen bg-cover bg-center"
+  style="background-image: url('hero.png');"
+>
+  <div class="absolute inset-0 bg-black/60"></div>
 
-    <!-- HEADER -->
-    <header class="relative z-10 max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-      <div class="text-xl tracking-widest text-amber-400 font-semibold">
-        AD TILING
+  <!-- HEADER -->
+  <header class="relative z-10 max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+    <div class="text-xl tracking-widest text-amber-400 font-semibold">
+      AD TILING
+    </div>
+    <nav class="space-x-6 text-sm uppercase tracking-wider">
+      <a href="#about" class="hover:text-amber-400">About</a>
+      <a href="#services" class="hover:text-amber-400">Services</a>
+      <a href="#work" class="hover:text-amber-400">Work</a>
+      <a href="#contact" class="hover:text-amber-400">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO TEXT -->
+  <div class="relative z-10 max-w-7xl mx-auto px-6 py-32">
+    <h1 class="text-5xl md:text-6xl text-amber-400 mb-4">
+      AD TILING
+    </h1>
+    <p class="text-xl tracking-wide">
+      Luxury & Precision Tiling
+    </p>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="py-24 bg-neutral-800">
+  <div class="max-w-4xl mx-auto text-center px-6">
+    <h2 class="text-3xl mb-6">About Us</h2>
+    <p class="text-neutral-300 leading-relaxed">
+      AD Tiling delivers premium tiling solutions with flawless finishes.
+      We specialise in luxury bathrooms, kitchens, and large-format tiles.
+    </p>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="py-24 bg-neutral-900">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl text-center mb-12">Our Services</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-neutral-800 p-8 rounded-xl text-center shadow-lg">
+        <h3 class="text-xl mb-3">Bathroom Tiling</h3>
+        <p class="text-neutral-400">
+          Luxury wet rooms and modern bathrooms.
+        </p>
       </div>
-      <nav class="space-x-6 text-sm uppercase tracking-wider">
-        <a href="#about" class="hover:text-amber-400">About</a>
-        <a href="#services" class="hover:text-amber-400">Services</a>
-        <a href="#work" class="hover:text-amber-400">Work</a>
-        <a href="#contact" class="hover:text-amber-400">Contact</a>
-      </nav>
-    </header>
 
-    <!-- HERO TEXT -->
-    <div class="relative z-10 max-w-7xl mx-auto px-6 py-32">
-      <h1 class="text-5xl md:text-6xl text-amber-400 mb-4">
-        AD TILING
-      </h1>
-      <p class="text-xl tracking-wide">
-        Luxury & Precision Tiling
-      </p>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="py-24 bg-neutral-800">
-    <div class="max-w-4xl mx-auto text-center px-6">
-      <h2 class="text-3xl mb-6">About Us</h2>
-      <p class="text-neutral-300 leading-relaxed">
-        AD Tiling delivers premium tiling solutions with flawless finishes.
-        We specialise in luxury bathrooms, kitchens, and large-format tiles.
-      </p>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="py-24 bg-neutral-900">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl text-center mb-12">Our Services</h2>
-
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-neutral-800 p-8 rounded-xl text-center shadow-lg">
-          <h3 class="text-xl mb-3">Bathroom Tiling</h3>
-          <p class="text-neutral-400">
-            Luxury wet rooms and modern bathrooms.
-          </p>
-        </div>
-
-        <div class="bg-neutral-800 p-8 rounded-xl text-center shadow-lg">
-          <h3 class="text-xl mb-3">Kitchen Tiling</h3>
-          <p class="text-neutral-400">
-            High-end splashbacks and floors.
-          </p>
-        </div>
-
-        <div class="bg-neutral-800 p-8 rounded-xl text-center shadow-lg">
-          <h3 class="text-xl mb-3">Floor Tiling</h3>
-          <p class="text-neutral-400">
-            Large format and premium finishes.
-          </p>
-        </div>
+      <div class="bg-neutral-800 p-8 rounded-xl text-center shadow-lg">
+        <h3 class="text-xl mb-3">Kitchen Tiling</h3>
+        <p class="text-neutral-400">
+          High-end splashbacks and floors.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <!-- WORK -->
-  <section id="work" class="py-24 bg-neutral-800">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl text-center mb-12">Our Work</h2>
-
-      <div class="grid md:grid-cols-3 gap-6">
-        <img
-          class="rounded-xl"
-          src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a"
-          alt="Bathroom tiling"
-        />
-        <img
-          class="rounded-xl"
-          src="https://images.unsplash.com/photo-1600585154780-3c9c8c0f6c7b"
-          alt="Luxury kitchen tiling"
-        />
-        <img
-          class="rounded-xl"
-          src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf"
-          alt="Floor tiling"
-        />
+      <div class="bg-neutral-800 p-8 rounded-xl text-center shadow-lg">
+        <h3 class="text-xl mb-3">Floor Tiling</h3>
+        <p class="text-neutral-400">
+          Large format and premium finishes.
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer id="contact" class="py-10 text-center text-sm text-neutral-500">
-    © 2025 AD Tiling. Luxury & Precision Tiling.
-  </footer>
+<!-- ================= WORK ================= -->
+<section id="work" class="py-24 bg-neutral-800">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl text-center mb-12">Our Work</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <img
+        class="rounded-xl transition-transform duration-500 hover:scale-105"
+        src="work1.png"
+        alt="Tiling work 1"
+      />
+      <img
+        class="rounded-xl transition-transform duration-500 hover:scale-105"
+        src="work2.png"
+        alt="Tiling work 2"
+      />
+      <img
+        class="rounded-xl transition-transform duration-500 hover:scale-105"
+        src="work3.png"
+        alt="Tiling work 3"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer id="contact" class="py-10 text-center text-sm text-neutral-500">
+  © 2025 AD Tiling. Luxury & Precision Tiling.
+</footer>
 
 </body>
 </html>
