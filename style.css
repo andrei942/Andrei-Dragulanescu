@@ -82,5 +82,32 @@ footer {
     background: #000;
     text-align: center;
     padding: 20px;
-    font-size: 0.9rem;
+    font-size: t
+/* WORK SECTION */
+.work {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.work h2 {
+  margin-bottom: 30px;
+  color: #d4af37;
+}
+
+.work-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work-gallery img {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.work-gallery img:hover {
+  transform: scale(1.05);
 }
