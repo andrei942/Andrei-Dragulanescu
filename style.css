@@ -132,3 +132,8 @@ footer {
     font-size: 36px;
   }
 }
+.work-section {
+  background: url("images/work.png") no-repeat center center;
+  background-size: cover;
+  padding: 100px 20px;
+}
