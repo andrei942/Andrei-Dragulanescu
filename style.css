@@ -4,11 +4,14 @@
   box-sizing: border-box;
   font-family: "Georgia", serif;
 }
-
 body {
-  background: #0b0b0b;
-  color: #e6e6e6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("images/bathroom.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
 }
+
 
 /* HERO */
 .hero {
